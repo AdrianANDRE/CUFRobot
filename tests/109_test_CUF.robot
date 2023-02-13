@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    coucou_BDD
+Documentation    test_CUF
 Metadata         ID                           109
 Metadata         Automation priority          null
 Metadata         Test case importance         Low
@@ -9,8 +9,8 @@ Test Teardown    Test Teardown
 
 
 *** Test Cases ***
-coucou_BDD
-    [Documentation]    coucou_BDD
+test_CUF
+    [Documentation]    test_CUF
 
     Given Voici une CUF
 
